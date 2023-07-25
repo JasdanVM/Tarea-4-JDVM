@@ -20,7 +20,6 @@ class InputForm extends StatefulWidget {
   final TextInputType type;
   final TextEditingController controller;
 
-  //calback
   final String? Function(String?) validator;
 
   @override
@@ -32,14 +31,14 @@ class _InputFormState extends State<InputForm> {
   Widget build(BuildContext context) {
     return TextFormField(
       controller: widget.controller,
-      style: const TextStyle(color: Colors.blue),
+      style: const TextStyle(color: Color.fromARGB(255, 8, 75, 129)),
       keyboardType: widget.type,
       obscureText: widget.obscureText,
       decoration: InputDecoration(
         label: Text(widget.label),
         prefixIcon: Icon(
           widget.icon,
-          color: Colors.deepPurple,
+          color: Color.fromARGB(255, 202, 184, 21),
         ),
         suffixIcon: widget.mostrarBoton
             ? IconButton(
