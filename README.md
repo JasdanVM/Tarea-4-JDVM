@@ -3,6 +3,6 @@
 
 App que conste de una Pantalla de "Login", y una de Bienvenida, con una comprobación de Usuario y Contraseña para pasar a la segunda.
 
-El Usuario corresponde a mi correo institucional 'jasonmejia@unah.hn' \n
+El Usuario corresponde a mi correo institucional 'jasonmejia@unah.hn' 
 La contraseña a mi número de cuenta '20212000937'
 
