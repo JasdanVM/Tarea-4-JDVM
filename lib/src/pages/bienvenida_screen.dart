@@ -11,6 +11,8 @@ class BienvenidaScreen extends StatelessWidget {
     fontWeight: FontWeight.w800,
     );
     return Scaffold(
+      appBar: AppBar(
+      ),
       body: const Center(
         child: Text('Bienvenido(a)', style: estilo),
       ),
